@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+vendor/
+app/vendor/
+composer.lock
+node_modules/
+public/build/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Cache & Logs
+runtime/*
+!runtime/.htaccess
+!runtime/index.html
+*.log
+*.cache
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# OS
+Thumbs.db
