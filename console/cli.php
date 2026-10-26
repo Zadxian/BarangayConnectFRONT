@@ -6,7 +6,7 @@ define('APP_DIR', dirname(__DIR__, 1) . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_
 define('PUBLIC_DIR', dirname(__DIR__, 1) . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR);
 define('RUNTIME_DIR', dirname(__DIR__, 1) . DIRECTORY_SEPARATOR . 'runtime' . DIRECTORY_SEPARATOR);
 define('COMMANDS_DIR', APP_DIR . 'commands' . DIRECTORY_SEPARATOR);
-
+#! zad was here
 $commands = [];
 
 register_command('run', 'handle_run_command', 'Start PHP built-in development server', [
